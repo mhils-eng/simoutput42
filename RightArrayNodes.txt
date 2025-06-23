@@ -2,10 +2,10 @@
 Left Solar Array Flexible Nodes    ! Description
 6                               ! Number of Nodes
 ******************* Node Location, Comment *********************
-0.0  0.0  0.0        "Array root"
-1.0  0.0  0.0        "1m along array"
-2.0  0.0  0.0        "2m along array"
-3.0  0.0  0.0        "3m along array"
-4.0  0.0  0.0        "4m along array"
-5.0  0.0  0.0        "5m along array"
+1.0  0.75  0.0        "along array"
+1.0  -0.75  0.0        "along array"
+2.5  0.75  0.0        "along array"
+2.5  -0.75  0.0        "along array"
+4.0  0.75  0.0        "along array"
+4.0  -0.75  0.0        "along array"
 [EOF]

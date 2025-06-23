@@ -3,7 +3,7 @@ Simple S/C with Flexible Solar Arrays    !  Description
 "S/C"                       !  Label
 GenScSpriteAlpha.ppm        !  Sprite File Name
 PROTOTYPE_FSW               !  Flight Software Identifier
-0.01                         !  FSW Sample Time, sec (10Hz output)
+0.1                         !  FSW Sample Time, sec (10Hz output)
 ************************* Orbit Parameters ****************************
 FIXED                       !  Orbit Prop FIXED, EULER_HILL, ENCKE, or COWELL
 CM                          !  Pos of CM or ORIGIN, wrt F
@@ -71,9 +71,9 @@ TRUE   TRUE   TRUE          ! TrnDOF Locked (rigid connection)
 0.0    0.0    0.01           ! Initial Rates, deg/sec
 0.0    0.0    0.0           ! Initial Displacements [m]
 0.0    0.0    0.0           ! Initial Displacement Rates, m/sec
-0.0    0.0    90.0  123      ! Bi to Gi Static Angles [deg] & Seq
-0.0    0.0    0.0  123      ! Go to Bo Static Angles [deg] & Seq
-4.0    0.0    0.0           ! Position wrt inner body origin, m
+0.0    0.0    0.0  123      ! Bi to Gi Static Angles [deg] & Seq
+0.0    0.0    90.0  123      ! Go to Bo Static Angles [deg] & Seq
+3.5    0.0    0.0           ! Position wrt inner body origin, m
 0.0    0.0    0.0           ! Position wrt outer body origin, m
 NONE                        ! Parameter File Name (no flex joint file needed)
 ============================== Joint 1 ================================
@@ -87,9 +87,9 @@ TRUE   TRUE   TRUE          ! TrnDOF Locked (rigid connection)
 0.0    0.0    0.01           ! Initial Rates, deg/sec
 0.0    0.0    0.0           ! Initial Displacements [m]
 0.0    0.0    0.0           ! Initial Displacement Rates, m/sec
-0.0    0.0    90.0  123      ! Bi to Gi Static Angles [deg] & Seq
-0.0    0.0    0.0  123      ! Go to Bo Static Angles [deg] & Seq
--4.0   0.0    0.0           ! Position wrt inner body origin, m
+0.0    0.0    0.0  123      ! Bi to Gi Static Angles [deg] & Seq
+0.0    0.0    -90.0  123      ! Go to Bo Static Angles [deg] & Seq
+-3.5   0.0    0.0           ! Position wrt inner body origin, m
 0.0    0.0    0.0           ! Position wrt outer body origin, m
 NONE                        ! Parameter File Name (no flex joint file needed)
 *************************** Wheel Parameters ***************************
@@ -99,7 +99,7 @@ FALSE                       ! Wheel Jitter Active
 =============================  Wheel 0  ================================
 0.0                         ! Initial Momentum, N-m-sec
 1.0   0.0   0.0             ! Wheel Axis Components, [X, Y, Z]
-0.14   50.0                 ! Max Torque (N-m), Momentum (N-m-sec)
+0.84   50.0                 ! Max Torque (N-m), Momentum (N-m-sec)
 0.012                       ! Wheel Rotor Inertia, kg-m^2
 0                           ! Body
 0                           ! Node

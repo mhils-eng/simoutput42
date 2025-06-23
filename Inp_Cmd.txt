@@ -2,8 +2,7 @@
 0.0 SC[0] qrn = [0.0  0.0  0.0  1.0]
 0.0 SC[0] qrl = [0.0  0.0  0.0  1.0]
 0.0 SC[0] Cmd Angles = [0.0 0.0 20.0] deg, Seq = 321 wrt L Frame
-100.0 SC[0] Cmd Angles = [0.0 0.0 0.0] deg, Seq = 321 wrt L Frame
-200.0 SC[0] Cmd Angles = [0.0 0.0 0.0] deg, Seq = 321 wrt L Frame
+250.0 SC[0] Cmd Angles = [0.0 0.0 0.0] deg, Seq = 321 wrt L Frame
 
 EOF
 
